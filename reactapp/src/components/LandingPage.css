@@ -1,0 +1,51 @@
+.landing-container {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f5faff;
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.landing-container h1 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.landing-container p {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.landing-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.landing-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.landing-btn.secondary {
+  background: #fff;
+  color: #1976d2;
+  border: 1px solid #1976d2;
+}
+
+.landing-btn:hover {
+  background: #125ea2;
+}
+
+.landing-btn.secondary:hover {
+  background: #e3f0fc;
+}
